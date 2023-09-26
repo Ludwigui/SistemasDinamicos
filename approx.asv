@@ -1,0 +1,21 @@
+clc
+clear all
+close all
+
+x = [];
+y=[];
+ya=[];
+it = 1;
+for i=-1:0.01:1
+    if (i>=0)&(i<)
+    x(it) = i;
+    y(it) = i;
+    ya(it) = tanh(i/0.05)/10;
+    it = it+1;
+end
+
+plot(x,y)
+hold on
+plot(x,ya)
+xlim([-0.1 0.1])
+ylim([-0.1 0.1])
