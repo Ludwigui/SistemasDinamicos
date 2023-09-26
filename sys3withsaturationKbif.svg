@@ -1,0 +1,465 @@
+<!-- Uncomment following when using your own custom external stylesheet.-->
+<!--
+<?xml-stylesheet type="text/css" href="xppaut-stylesheet.css" ?>
+-->
+<svg  xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" font-size="12pt" width="640" height="400">
+
+
+      <defs>
+          <circle class="xpppointP" id = "xpppointP"  r = "1"  stroke-width = "1"/>
+          <circle class="xppbead" id = "xppbead"  r = "1"  stroke-width = "1"/>
+          <circle class="xpppointD" id = "xpppointD"  r = "1"  stroke-width = "1"/>
+          <circle class="xpppointA" id = "xpppointA"  r = "1"  stroke-width = "1"/>
+          <circle class="xpppointB" id = "xpppointB"  r = "1"  stroke-width = "1"/>
+          <circle class="xpppointC" id = "xpppointC"  r = "1"  stroke-width = "1"/>
+          <circle class="xpppointT" id = "xpppointT"  r = "1"  stroke-width = "1"/>
+          <circle class="xpppointS" id = "xpppointS"  r = "1"  stroke-width = "1"/>
+          <circle class="xpppointK" id = "xpppointK"  r = "3"  stroke-width = "0.75"/>
+          <circle class="xpppointF" id = "xpppointF"  r = "2"  stroke-width = "0"/>
+      </defs>
+
+
+
+      <!-- Comment out the following style block when using your own custom external stylesheet.-->
+      <!-- As a starting point for your custom external stylesheet, consider copying the style 
+           information (between but not including CDATA tags) to a file named xppaut-stylesheet.css 
+       -->
+      <style type="text/css">
+           <![CDATA[
+      
+                 circle.xpppointP {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointD {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointA {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointB {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointC {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointT {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointS {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointK {
+                    stroke-width: 1.0;
+                 }
+
+                 circle.xpppointF {
+                    stroke-width: 1.0;
+                 }
+
+                 line.xppaxes {
+                    stroke: #000000;
+                 }
+                 line.xppboxaxes {
+                    stroke: #000000;
+                 }
+                 line.xppdfield {
+                    stroke: #000000;
+                 }
+                 line.xpplineb {
+                    stroke: #000000;
+                 }
+                 line.xpplinea {
+                    stroke-dasharray: 2,8;
+                    stroke-width: 2;
+                    stroke: #000000;
+                 }
+                 line.xppline0 {
+                    stroke: #000000;
+                 }
+                 line.xppline1 {
+                    stroke-width: 1;
+                    stroke: #FF0000;
+                 }
+                 line.xppline2 {
+                    stroke: #F06400;
+                 }
+                 line.xppline3 {
+                    stroke: #FFA500;
+                 }
+                 line.xppline4 {
+                    stroke: #FFCD00;
+                 }
+                 line.xppline5 {
+                    stroke: #C8C800;
+                 }
+                 line.xppline6 {
+                    stroke: #00FF00;
+                 }
+                 line.xppline7 {
+                    stroke: #32CD32;
+                 }
+                 line.xppline8 {
+                    stroke: #00C8C8;
+                 }
+                 line.xppline9 {
+                    stroke: #0000FF;
+                 }
+                 line.xpplinec {
+                    stroke: #000000;
+                 }
+                 
+                 text.xpptext {
+                    font-family: sans-serif;
+                    font-size  : 1em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 text.xppyaxislabelh {
+                    font-family: sans-serif;
+                    font-size  : 1em;
+                    stroke	: none;
+                    fill	: none;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 text.xppyaxislabelv {
+                    font-family: sans-serif;
+                    font-size  : 1em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 text.xppaxestext {
+                    font-family: sans-serif;
+                    font-size  : 1em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 
+                 text.xpptext0 {
+                    font-family: sans-serif;
+                    font-size  : 0.5em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 
+                 text.xpptext1 {
+                    font-family: sans-serif;
+                    font-size  : 0.75em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 
+                 text.xpptext2 {
+                    font-family: sans-serif;
+                    font-size  : 1em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 
+                 text.xpptext3 {
+                    font-family: sans-serif;
+                    font-size  : 1.25em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+                 
+                 text.xpptext4 {
+                    font-family: sans-serif;
+                    font-size  : 1.5em;
+                    stroke	: #000000;
+                    fill	: #000000;
+                    baseline-shift:-33%;
+                    dominant-baseline: central;
+                 }
+           ]]>
+      </style>
+
+      <line class="xppboxaxes"  x1="144"  y1="51" x2="595"   y2="51" />
+      <line class="xppboxaxes"  x1="595"  y1="51" x2="595"   y2="329" />
+      <line class="xppaxes"  x1="595"  y1="329" x2="144"   y2="329" />
+      <line class="xppaxes"  x1="144"  y1="329" x2="144"   y2="51" />
+      <line class="xppaxes"  x1="144"  y1="329" x2="153"   y2="329" />
+      <line class="xppboxaxes"  x1="595"  y1="329" x2="586"   y2="329" />
+
+      <text class="xppaxestext" text-anchor="end" x="129"  y="329"
+      >-1</text>
+      <line class="xppaxes"  x1="144"  y1="283" x2="153"   y2="283" />
+      <line class="xppboxaxes"  x1="595"  y1="283" x2="586"   y2="283" />
+
+      <text class="xppaxestext" text-anchor="end" x="129"  y="283"
+      >0</text>
+      <line class="xppaxes"  x1="144"  y1="237" x2="153"   y2="237" />
+      <line class="xppboxaxes"  x1="595"  y1="237" x2="586"   y2="237" />
+
+      <text class="xppaxestext" text-anchor="end" x="129"  y="237"
+      >1</text>
+      <line class="xppaxes"  x1="144"  y1="191" x2="153"   y2="191" />
+      <line class="xppboxaxes"  x1="595"  y1="191" x2="586"   y2="191" />
+
+      <text class="xppaxestext" text-anchor="end" x="129"  y="191"
+      >2</text>
+      <line class="xppaxes"  x1="144"  y1="144" x2="153"   y2="144" />
+      <line class="xppboxaxes"  x1="595"  y1="144" x2="586"   y2="144" />
+
+      <text class="xppaxestext" text-anchor="end" x="129"  y="144"
+      >3</text>
+      <line class="xppaxes"  x1="144"  y1="98" x2="153"   y2="98" />
+      <line class="xppboxaxes"  x1="595"  y1="98" x2="586"   y2="98" />
+
+      <text class="xppaxestext" text-anchor="end" x="129"  y="98"
+      >4</text>
+      <line class="xppaxes"  x1="144"  y1="52" x2="153"   y2="52" />
+      <line class="xppboxaxes"  x1="595"  y1="52" x2="586"   y2="52" />
+
+      <text class="xppaxestext" text-anchor="end" x="129"  y="52"
+      >5</text>
+
+      <text class="xppyaxislabelv" text-anchor="middle" x="0"  y="0"
+      transform="rotate(-90,75,180) translate(75,180)"
+      >X1</text>
+
+      <text class="xppyaxislabelh" text-anchor="end" x="132"  y="12"
+      >X1</text>
+      <line class="xppaxes"  x1="144"  y1="329" x2="144"   y2="320" />
+      <line class="xppboxaxes"  x1="144"  y1="51" x2="144"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="144"  y="354"
+      >0</text>
+      <line class="xppaxes"  x1="189"  y1="329" x2="189"   y2="320" />
+      <line class="xppboxaxes"  x1="189"  y1="51" x2="189"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="189"  y="354"
+      >0.2</text>
+      <line class="xppaxes"  x1="234"  y1="329" x2="234"   y2="320" />
+      <line class="xppboxaxes"  x1="234"  y1="51" x2="234"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="234"  y="354"
+      >0.4</text>
+      <line class="xppaxes"  x1="279"  y1="329" x2="279"   y2="320" />
+      <line class="xppboxaxes"  x1="279"  y1="51" x2="279"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="279"  y="354"
+      >0.6</text>
+      <line class="xppaxes"  x1="324"  y1="329" x2="324"   y2="320" />
+      <line class="xppboxaxes"  x1="324"  y1="51" x2="324"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="324"  y="354"
+      >0.8</text>
+      <line class="xppaxes"  x1="369"  y1="329" x2="369"   y2="320" />
+      <line class="xppboxaxes"  x1="369"  y1="51" x2="369"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="369"  y="354"
+      >1</text>
+      <line class="xppaxes"  x1="414"  y1="329" x2="414"   y2="320" />
+      <line class="xppboxaxes"  x1="414"  y1="51" x2="414"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="414"  y="354"
+      >1.2</text>
+      <line class="xppaxes"  x1="459"  y1="329" x2="459"   y2="320" />
+      <line class="xppboxaxes"  x1="459"  y1="51" x2="459"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="459"  y="354"
+      >1.4</text>
+      <line class="xppaxes"  x1="504"  y1="329" x2="504"   y2="320" />
+      <line class="xppboxaxes"  x1="504"  y1="51" x2="504"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="504"  y="354"
+      >1.6</text>
+      <line class="xppaxes"  x1="549"  y1="329" x2="549"   y2="320" />
+      <line class="xppboxaxes"  x1="549"  y1="51" x2="549"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="549"  y="354"
+      >1.8</text>
+      <line class="xppaxes"  x1="595"  y1="329" x2="595"   y2="320" />
+      <line class="xppboxaxes"  x1="595"  y1="51" x2="595"   y2="60" />
+
+      <text class="xppaxestext" text-anchor="middle" x="595"  y="354"
+      >2</text>
+
+      <text class="xppaxestext" text-anchor="middle" x="369"  y="379"
+      >k</text>
+      <line class="xppline0"  x1="369"  y1="237" x2="369"   y2="237" />
+      <line class="xppline1"  x1="374"  y1="237" x2="369"   y2="237" />
+      <line class="xppline1"  x1="378"  y1="237" x2="374"   y2="237" />
+      <line class="xppline1"  x1="387"  y1="237" x2="378"   y2="237" />
+      <line class="xppline1"  x1="405"  y1="237" x2="387"   y2="237" />
+      <line class="xppline1"  x1="428"  y1="237" x2="405"   y2="237" />
+      <line class="xppline1"  x1="450"  y1="237" x2="428"   y2="237" />
+      <line class="xppline1"  x1="473"  y1="237" x2="450"   y2="237" />
+      <line class="xppline1"  x1="495"  y1="237" x2="473"   y2="237" />
+      <line class="xppline1"  x1="518"  y1="237" x2="495"   y2="237" />
+      <line class="xppline1"  x1="540"  y1="237" x2="518"   y2="237" />
+      <line class="xppline1"  x1="563"  y1="237" x2="540"   y2="237" />
+      <line class="xppline1"  x1="585"  y1="237" x2="563"   y2="237" />
+      <line class="xppline1"  x1="595"  y1="237" x2="585"   y2="237" />
+      <line class="xppline0"  x1="369"  y1="237" x2="369"   y2="237" />
+      <line class="xppline1"  x1="364"  y1="237" x2="369"   y2="237" />
+      <line class="xppline1"  x1="360"  y1="237" x2="364"   y2="237" />
+      <line class="xppline1"  x1="351"  y1="237" x2="360"   y2="237" />
+      <line class="xppline1"  x1="333"  y1="237" x2="351"   y2="237" />
+      <line class="xppline1"  x1="310"  y1="237" x2="333"   y2="237" />
+      <line class="xppline1"  x1="288"  y1="237" x2="310"   y2="237" />
+      <line class="xppline1"  x1="265"  y1="237" x2="288"   y2="237" />
+      <line class="xppline1"  x1="243"  y1="237" x2="265"   y2="237" />
+      <line class="xppline1"  x1="220"  y1="237" x2="243"   y2="237" />
+      <line class="xppline1"  x1="198"  y1="237" x2="220"   y2="237" />
+      <line class="xppline1"  x1="175"  y1="237" x2="198"   y2="237" />
+      <line class="xppline1"  x1="153"  y1="237" x2="175"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="237" x2="153"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="238" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="239" x2="144"   y2="238" />
+      <line class="xppline0"  x1="144"  y1="241" x2="144"   y2="239" />
+      <line class="xppline0"  x1="144"  y1="244" x2="144"   y2="241" />
+      <line class="xppline0"  x1="144"  y1="249" x2="144"   y2="244" />
+      <line class="xppline0"  x1="144"  y1="254" x2="144"   y2="249" />
+      <line class="xppline0"  x1="144"  y1="258" x2="144"   y2="254" />
+      <line class="xppline0"  x1="144"  y1="263" x2="144"   y2="258" />
+      <line class="xppline0"  x1="144"  y1="267" x2="144"   y2="263" />
+      <line class="xppline0"  x1="144"  y1="272" x2="144"   y2="267" />
+      <line class="xppline0"  x1="144"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="236" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="236" x2="144"   y2="236" />
+      <line class="xppline0"  x1="144"  y1="235" x2="144"   y2="236" />
+      <line class="xppline0"  x1="144"  y1="233" x2="144"   y2="235" />
+      <line class="xppline0"  x1="144"  y1="229" x2="144"   y2="233" />
+      <line class="xppline0"  x1="144"  y1="225" x2="144"   y2="229" />
+      <line class="xppline0"  x1="144"  y1="220" x2="144"   y2="225" />
+      <line class="xppline0"  x1="144"  y1="216" x2="144"   y2="220" />
+      <line class="xppline0"  x1="144"  y1="211" x2="144"   y2="216" />
+      <line class="xppline0"  x1="144"  y1="206" x2="144"   y2="211" />
+      <line class="xppline0"  x1="144"  y1="202" x2="144"   y2="206" />
+      <line class="xppline0"  x1="144"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="144"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="148"  y1="237" x2="144"   y2="237" />
+      <line class="xppline0"  x1="149"  y1="237" x2="148"   y2="237" />
+      <line class="xppline1"  x1="154"  y1="237" x2="149"   y2="237" />
+      <line class="xppline1"  x1="163"  y1="237" x2="154"   y2="237" />
+      <line class="xppline1"  x1="181"  y1="237" x2="163"   y2="237" />
+      <line class="xppline1"  x1="203"  y1="237" x2="181"   y2="237" />
+      <line class="xppline1"  x1="226"  y1="237" x2="203"   y2="237" />
+      <line class="xppline1"  x1="248"  y1="237" x2="226"   y2="237" />
+      <line class="xppline1"  x1="271"  y1="237" x2="248"   y2="237" />
+      <line class="xppline1"  x1="293"  y1="237" x2="271"   y2="237" />
+      <line class="xppline1"  x1="316"  y1="237" x2="293"   y2="237" />
+      <line class="xppline1"  x1="339"  y1="237" x2="316"   y2="237" />
+      <line class="xppline1"  x1="361"  y1="237" x2="339"   y2="237" />
+      <line class="xppline1"  x1="384"  y1="237" x2="361"   y2="237" />
+      <line class="xppline1"  x1="406"  y1="237" x2="384"   y2="237" />
+      <line class="xppline1"  x1="429"  y1="237" x2="406"   y2="237" />
+      <line class="xppline1"  x1="451"  y1="237" x2="429"   y2="237" />
+      <line class="xppline1"  x1="474"  y1="237" x2="451"   y2="237" />
+      <line class="xppline1"  x1="496"  y1="237" x2="474"   y2="237" />
+      <line class="xppline1"  x1="519"  y1="237" x2="496"   y2="237" />
+      <line class="xppline1"  x1="542"  y1="237" x2="519"   y2="237" />
+      <line class="xppline1"  x1="564"  y1="237" x2="542"   y2="237" />
+      <line class="xppline1"  x1="587"  y1="237" x2="564"   y2="237" />
+      <line class="xppline1"  x1="595"  y1="237" x2="587"   y2="237" />
+      <use xlink:href = "#xpppointK" x="149" y="237" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="237" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="236" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="237" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="236" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="238" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="235" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="239" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="234" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="240" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="232" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="242" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="229" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="245" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="225" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="248" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="221" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="252" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="218" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="149" y="256" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="214" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="260" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="210" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="264" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="206" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="267" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="202" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="271" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="199" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="150" y="275" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="151" y="195" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="151" y="279" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="151" y="191" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="151" y="283" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="152" y="187" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="152" y="287" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="153" y="183" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="153" y="291" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="155" y="178" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="155" y="295" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="157" y="174" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="157" y="300" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="163" y="169" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="163" y="305" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="175" y="164" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="175" y="310" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="197" y="161" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="197" y="313" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="220" y="160" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="220" y="314" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="243" y="159" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="243" y="315" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="265" y="158" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="265" y="315" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="288" y="158" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="288" y="315" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="310" y="158" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="310" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="333" y="158" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="333" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="355" y="158" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="355" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="378" y="158" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="378" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="400" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="400" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="423" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="423" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="445" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="445" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="468" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="468" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="490" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="490" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="513" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="513" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="536" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="536" y="316" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="558" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="558" y="317" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="581" y="157" style="stroke:#0000FF; fill:none"/>
+      <use xlink:href = "#xpppointK" x="581" y="317" style="stroke:#0000FF; fill:none"/>
+</svg>

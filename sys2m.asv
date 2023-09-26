@@ -1,0 +1,30 @@
+clc
+clear all
+close all
+
+k=2;
+yr=1;
+sim('sys2')
+figure
+plot(ans.y(:,1), ans.y(:,2))
+hold on
+
+yr=2;
+sim('sys2')
+plot(ans.y(:,1), ans.y(:,2))
+hold on
+
+yr=3;
+sim('sys2')
+plot(ans.y(:,1), ans.y(:,2))
+hold on
+
+yr=3.5;
+sim('sys2')
+plot(ans.y(:,1), ans.y(:,2))
+
+
+legend('y_r=1','y_r=1',)
+title('Sistema sem saturação k=2')
+
+
